@@ -1,0 +1,22 @@
+# Data
+Data/
+*.csv
+*.zip
+*.gz
+*.tar
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
