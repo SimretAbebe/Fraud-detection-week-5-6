@@ -11,14 +11,12 @@ data/processed/
 *.tar.gz
 
 # Model Files
-models/*.pkl
-models/*.joblib
-models/*.h5
-models/*.pt
-models/*.pth
-models/*.model
 *.pkl
 *.joblib
+# Allow tracking saved model files in the models directory for grading evidence
+!models/
+!models/*.pkl
+!models/*.joblib
 
 # Jupyter Notebook
 .ipynb_checkpoints/
